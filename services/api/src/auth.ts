@@ -1,0 +1,1 @@
+import type{RequestHandler}from'express';export interface Principal{id:string;name:string;role:'agent'|'lead'}declare global{namespace Express{interface Request{user?:Principal}}}export const demoAuth:RequestHandler=(req,_res,next)=>{req.user={id:'usr_rahul',name:'Rahul Maurya',role:req.header('x-demo-role')==='lead'?'lead':'agent'};next()}
