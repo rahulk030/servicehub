@@ -2,6 +2,12 @@
 
 A support operations platform for managing customer tickets, SLA risk, ownership, and team workload. The project focuses on application concerns that matter in real internal tools: access control, searchable data, state transitions, auditability, and operational metrics.
 
+## Live demo
+
+**[Open ServiceHub →](https://rahulk030.github.io/servicehub/)**
+
+The public GitHub Pages version runs in a browser-only portfolio demo mode with representative support tickets, search/filtering, SLA-risk indicators, and queue metrics. The repository also contains the full Node.js/MongoDB implementation for local development.
+
 ## Features
 
 - Ticket queue with search, priority, status, and assignee filters.
